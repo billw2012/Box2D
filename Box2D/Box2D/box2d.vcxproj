@@ -245,36 +245,44 @@
   <ImportGroup Label="Shared" />
   <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|ARM64'">
     <Import Project="..\..\..\..\AugustusCommon.props" />
+    <Import Project="..\..\..\..\AugustusDebug.props" />
   </ImportGroup>
   <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">
     <Import Project="..\..\..\..\AugustusCommon.props" />
+    <Import Project="..\..\..\..\AugustusDebug.props" />
   </ImportGroup>
   <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <Import Project="..\..\..\..\AugustusCommon.props" />
+    <Import Project="..\..\..\..\AugustusDebug.props" />
   </ImportGroup>
   <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x86'">
     <Import Project="..\..\..\..\AugustusCommon.props" />
+    <Import Project="..\..\..\..\AugustusDebug.props" />
   </ImportGroup>
   <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|ARM64'">
     <Import Project="..\..\..\..\AugustusCommon.props" />
+    <Import Project="..\..\..\..\AugustusRelease.props" />
   </ImportGroup>
   <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Profile|ARM64'" Label="PropertySheets">
     <Import Project="..\..\..\..\AugustusCommon.props" />
   </ImportGroup>
   <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">
     <Import Project="..\..\..\..\AugustusCommon.props" />
+    <Import Project="..\..\..\..\AugustusRelease.props" />
   </ImportGroup>
   <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Profile|ARM'" Label="PropertySheets">
     <Import Project="..\..\..\..\AugustusCommon.props" />
   </ImportGroup>
   <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <Import Project="..\..\..\..\AugustusCommon.props" />
+    <Import Project="..\..\..\..\AugustusRelease.props" />
   </ImportGroup>
   <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Profile|x64'" Label="PropertySheets">
     <Import Project="..\..\..\..\AugustusCommon.props" />
   </ImportGroup>
   <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x86'">
     <Import Project="..\..\..\..\AugustusCommon.props" />
+    <Import Project="..\..\..\..\AugustusRelease.props" />
   </ImportGroup>
   <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Profile|x86'" Label="PropertySheets">
     <Import Project="..\..\..\..\AugustusCommon.props" />
